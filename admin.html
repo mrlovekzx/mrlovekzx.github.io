@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StayPlus Admin</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <header class="bg-gray-800 text-white p-4 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">StayPlus - หลังบ้าน</h1>
+      <a href="index.html" class="text-sm hover:underline">กลับหน้าแรก</a>
+    </div>
+  </header>
+
+  <main class="container mx-auto p-6 mt-6 bg-white rounded shadow">
+    <h2 class="text-xl font-semibold mb-4">📊 แดชบอร์ดผู้ดูแลระบบ</h2>
+
+    <section class="mb-6">
+      <h3 class="text-lg font-semibold mb-2">📅 รายการจองห้อง</h3>
+      <table class="table-auto w-full text-left border">
+        <thead>
+          <tr class="bg-gray-200">
+            <th class="p-2 border">ชื่อผู้เข้าพัก</th>
+            <th class="p-2 border">ห้อง</th>
+            <th class="p-2 border">วันที่จอง</th>
+            <th class="p-2 border">สถานะ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="p-2 border">คุณสมชาย</td>
+            <td class="p-2 border">A101</td>
+            <td class="p-2 border">2025-08-01</td>
+            <td class="p-2 border text-green-600">เช็คอินแล้ว</td>
+          </tr>
+          <tr>
+            <td class="p-2 border">คุณจอย</td>
+            <td class="p-2 border">B202</td>
+            <td class="p-2 border">2025-08-03</td>
+            <td class="p-2 border text-yellow-600">รอเช็คอิน</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mb-6">
+      <h3 class="text-lg font-semibold mb-2">📦 รายการสินค้าถูกสั่งซื้อ</h3>
+      <ul class="list-disc list-inside">
+        <li>กาแฟเย็น x 2 - คุณสมชาย</li>
+        <li>ขนมขบเคี้ยว x 1 - คุณจอย</li>
+      </ul>
+    </section>
+
+    <section class="mb-6">
+      <h3 class="text-lg font-semibold mb-2">📋 รายการของที่ถูกยืม</h3>
+      <ul class="list-disc list-inside">
+        <li>ไดร์เป่าผม - ห้อง A101</li>
+        <li>ผ้าเช็ดตัวเพิ่ม - ห้อง B202</li>
+      </ul>
+    </section>
+
+    <section class="mb-6">
+      <h3 class="text-lg font-semibold mb-2">📝 รีวิวล่าสุด</h3>
+      <div class="bg-gray-100 p-4 rounded shadow">
+        <p><strong>คุณสมชาย:</strong> บริการดีมาก พนักงานน่ารักครับ!</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-gray-800 text-white text-center p-4 mt-6">
+    StayPlus © 2025 - ระบบหลังบ้าน
+  </footer>
+
+</body>
+</html>
